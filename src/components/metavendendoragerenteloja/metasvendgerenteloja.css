@@ -1,0 +1,757 @@
+
+#pai {
+    width: 94%;
+}
+
+/* ---------------------------------------------------
+    TABELA
+----------------------------------------------------- */
+
+.tabela {
+    overflow-y: scroll;
+    margin: 0 -15% 0% 4%;
+    height: 365px;
+    text-align: center;
+    width: 111%;
+ 
+}
+
+th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #007bff;
+    color:  white;
+}
+
+@media only screen and (max-width: 768px) {    
+    .tabela {
+        margin: 0 -15% 0% 3%;
+        width: 111%;
+    }
+
+
+
+
+}
+
+/* ---------------------------------------------------
+    CARD
+----------------------------------------------------- */
+
+
+
+.title-card {
+    font-weight: bold;
+    margin: 5% 0 5% 5%
+}
+
+.cardFornecedor {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2PX rgba(0,0,0,0.20);
+    margin: 0 0% 5% 2%;
+    width: 110%;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-card {
+        font-weight: bold;
+        margin: 5% 0 5% 5%
+    }
+    
+    .cardFornecedor {
+        width: 111%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2PX rgba(0,0,0,0.20);
+        margin: 0 0% 5% 3%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS
+----------------------------------------------------- */
+
+#data {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 2% 0 15%;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+#data1 {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 2% 0 8%;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+#dateInput {
+    width: 30%;
+}
+
+#dateInput1 {
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    #dateInput {
+        width: 100%;
+        padding-right: 0%;
+        margin-bottom: 4%;
+    }
+
+    #dateInput1 {
+        width: 100%;
+        padding-right: 0%;
+        margin-bottom: 4%;
+    }
+    
+    #data {
+        border-style: hidden hidden solid hidden;
+        width: 90%;
+        margin-left: 10%;
+        padding: 0%;
+        position: relative;
+    }
+    
+    #data1 {
+        border-style: hidden hidden solid hidden;
+        margin-left: 10%;
+        width: 90%;
+        padding: 0%;
+        position: relative;
+    }
+
+    #data1 .react-datepicker-ignore-onclickoutside .react-datepicker-popper {
+        left: -94px;
+        position: absolute;
+    }
+
+    #selectsilas {
+        width: 100%;
+        margin-left: 5%;
+     
+        margin-bottom: 4%;
+    }
+
+    #botaosm {
+        width: 100%;
+        margin-left: 5%;
+       
+        margin-bottom: 4%;
+    }
+}
+
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO GERAL/POR ITEM GERAL
+----------------------------------------------------- */
+
+
+.revistaLabel {
+    margin: 0 0 0 7%;
+}
+
+#revista {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 47%;
+    margin: 0 0 0 7%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel {
+        margin: 0 0 0 6%;
+    }
+    
+    #revista {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR ITEM TAMANHOS
+----------------------------------------------------- */
+
+
+.revistaLabel2 {
+    margin: 0 2% 0 15%;
+}
+
+#revista2 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.referenciaLabel2 {
+    margin: 2% 2% 0 10%;
+}
+
+#referencia2 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 8%;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel2 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista2 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+    
+    .referenciaLabel2 {
+        margin: 0 0% 0 6%;
+    }
+    
+    #referencia2 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR ITEM LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel3 {
+    margin: 0 2% 0 15%;
+}
+
+#revista3 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.referenciaLabel3 {
+    margin: 2% 2% 0 10%;
+}
+
+#referencia3 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 8%;
+    border-bottom: 1px solid black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel3 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista3 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+    
+    .referenciaLabel3 {
+        margin: 0 0% 0 6%;
+    }
+    
+    #referencia3 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS ACUMULADO POR LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel4 {
+    margin: 0 2% 0 15%;
+}
+
+#revista4 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel4 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista4 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO E LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel5 {
+    margin: 0 2% 0 15%;
+}
+
+#revista5 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.revistaLabel6 {
+    margin: 0 2% 0 10%;
+}
+
+#revista6 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 98%;
+    margin: 0 0 0 10%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel5 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista5 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .revistaLabel6 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista6 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel7 {
+    margin: 0 2% 0 15%;
+}
+
+#revista7 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.revistaLabel8 {
+    margin: 0 2% 0 15%;
+}
+
+#revista8 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 10%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.revistaLabel9 {
+    margin: 0 2% 0 15%;
+}
+
+#revista9 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel7 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista7 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .revistaLabel8 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista8 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .revistaLabel9 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista9 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel10 {
+    margin: 0 2% 0 15%;
+}
+
+#revista10 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel10 {
+        margin: 0 2% 0 6%;
+    }
+    
+    #revista10 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+}
+
+/* ---------------------------------------------------
+    BUTTON LIMPAR
+----------------------------------------------------- */
+
+div .buttonLimpar {
+    position: relative;
+    margin: 0% 0% 0% 15%;
+    width: 100%;
+    position: relative;
+}
+
+div .buttonLimpar {
+    padding-top: 1%;
+    background:white;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;     
+    color: #007bff;   
+}
+
+
+div .buttonLimpar:hover {
+    background: #007bff;
+    color:  white;
+}
+
+div .buttonLimpar:focus {
+    background: #007bff;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    div .buttonLimpar {
+        padding: 0% 0% 0% 0%;
+        width: 100%;
+        position: relative;
+        margin:0% 0% 0% 5%;
+    }
+
+    div .buttonLimpar {
+        padding-top: 1%;
+        background: white;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+        border: none;
+        color: #007bff;   
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTON FILTRAR
+----------------------------------------------------- */
+
+div .buttonFiltrar  {
+    padding: 0% 0% 2,5% 0%;
+    position: relative;
+    margin: 0% 0% 0% 15%;
+    width: 100%;
+}
+ 
+
+div .buttonFiltrar {
+    padding-top: 1%;
+    background: #007bff;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;	
+}
+
+div .buttonFiltrar:hover {
+    background: white;
+    color: #007bff;
+}
+
+
+div .buttonFiltrar:focus {
+    background: white;
+    color: #007bff;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    div .buttonFiltrar {
+        padding: 2% 0;
+        width: 102%;
+        position: relative;
+        margin:0% 0% 0% 5%;
+    }
+
+    div .buttonFiltrar {
+        padding-top: 1%;
+        background: #007bff;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+        border: none;
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTON IMPRIMIR
+----------------------------------------------------- */
+
+.buttonImprimir {
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+    margin: 0% 0% 0% 15%;
+    position: relative;
+}
+
+
+
+div .buttonImprimir {
+    padding-top: 1%;
+    background: #007bff;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;	
+    margin: 0% 0% 0% 8%;
+}
+
+div .buttonImprimir:hover {
+    background: white;
+    color: #007bff;
+}
+
+
+div .buttonImprimir:focus {
+    background: white;
+    color: #007bff;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    div .buttonImprimir {
+        background: #007bff;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+        border: none;
+        padding: 2% 0;
+        margin: 0% 0% 0% 5%;
+    }
+
+    .buttonImprimir {
+        padding: 0% 0% 0% 0%;
+        width: 102%;
+        position: relative;
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTON BAIXAR
+----------------------------------------------------- */
+
+#test-table-xls-button {
+    padding: 4% 0%;
+    width: 100%;
+    position: relative;
+    margin:0% 2% 0% 15%;
+}
+
+div #test-table-xls-button {
+    padding-top: 1%;
+    background: #007bff;
+    color: white;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;	
+}
+
+div #test-table-xls-button:hover {
+    background: white;
+    color: #007bff;
+}
+
+
+div #test-table-xls-button:focus {
+    background: white;
+    color: #007bff;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    div #test-table-xls-button {
+        padding: 2% 0;
+        background: #007bff;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+        border: none;
+        color: white
+    }
+
+    #test-table-xls-button {
+        padding: 0% 0% 0% 0%;
+        margin:0% 0% 0% 5%;
+        width: 102%;
+        position: relative;
+    }
+    
+}
+
+
+
+
+
+.hide {
+ display: none;
+}
+
+#formselect{
+    padding: 4px 4px 4px 4px;
+    width: 100%;
+}
+
+.enter{
+   margin: 5% 0% 0% 0%;
+}
+
+.centrocentro{
+    text-align-last: center;
+  
+}
+
+
+/* ---------------------------------------------------
+    Select Tabela
+----------------------------------------------------- */
+
+
+.labelSelect {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#select {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+    #select {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 80%;
+    }
+}
+
+.silas{
+    background: #007bff;
+    color: white;
+}
+
+
+.alinhamento{
+    text-align: center;
+}

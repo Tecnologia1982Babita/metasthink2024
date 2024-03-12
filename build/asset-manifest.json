@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/metavendedoraclietereact2024/static/css/main.14547ffc.css",
+    "main.js": "/metavendedoraclietereact2024/static/js/main.bdbc8450.js",
+    "static/js/453.2d5f6301.chunk.js": "/metavendedoraclietereact2024/static/js/453.2d5f6301.chunk.js",
+    "static/media/Cardo-Regular.ttf": "/metavendedoraclietereact2024/static/media/Cardo-Regular.4ad75d4da97e1cf6655b.ttf",
+    "static/media/Cardo-Bold.ttf": "/metavendedoraclietereact2024/static/media/Cardo-Bold.c2984dcfbf0213139033.ttf",
+    "static/media/fundoEsqAzul.png": "/metavendedoraclietereact2024/static/media/fundoEsqAzul.d4290307608ea888ce19.png",
+    "static/media/FanwoodText-Regular.ttf": "/metavendedoraclietereact2024/static/media/FanwoodText-Regular.81fb0916bffb98af80d4.ttf",
+    "static/media/DancingScript-Regular.ttf": "/metavendedoraclietereact2024/static/media/DancingScript-Regular.5bfc0dcc0c0ff5a2832e.ttf",
+    "index.html": "/metavendedoraclietereact2024/index.html",
+    "main.14547ffc.css.map": "/metavendedoraclietereact2024/static/css/main.14547ffc.css.map",
+    "main.bdbc8450.js.map": "/metavendedoraclietereact2024/static/js/main.bdbc8450.js.map",
+    "453.2d5f6301.chunk.js.map": "/metavendedoraclietereact2024/static/js/453.2d5f6301.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14547ffc.css",
+    "static/js/main.bdbc8450.js"
+  ]
+}

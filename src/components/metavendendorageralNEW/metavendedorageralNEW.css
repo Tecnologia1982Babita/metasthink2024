@@ -1,0 +1,972 @@
+
+#pai {
+    width: 94%;
+}
+
+/* ---------------------------------------------------
+    TABELA
+----------------------------------------------------- */
+
+.tabela {
+    overflow-y: scroll;
+    margin: 0 -15% 0% 4%;
+    height: 365px;
+    text-align: center;
+    width: 111%;
+
+}
+
+th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #007bff;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .tabela {
+        margin: 0 -15% 0% 3%;
+        width: 111%;
+    }
+
+
+
+
+}
+
+/* ---------------------------------------------------
+    CARD
+----------------------------------------------------- */
+
+
+
+.title-card {
+    font-weight: bold;
+    margin: 5% 0 5% 5%
+}
+
+.cardFornecedor {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2PX rgba(0, 0, 0, 0.20);
+    margin: 0 0% 5% 2%;
+    width: 110%;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-card {
+        font-weight: bold;
+        margin: 5% 0 5% 5%
+    }
+
+    .cardFornecedor {
+        width: 111%;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2PX rgba(0, 0, 0, 0.20);
+        margin: 0 0% 5% 3%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS
+----------------------------------------------------- */
+
+#data {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 2% 0 15%;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+#data1 {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 2% 0 8%;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+#dateInput {
+    width: 30%;
+}
+
+#dateInput1 {
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    #dateInput {
+        width: 100%;
+        padding-right: 0%;
+        margin-bottom: 4%;
+    }
+
+    #dateInput1 {
+        width: 100%;
+        padding-right: 0%;
+        margin-bottom: 4%;
+    }
+
+    #data {
+        border-style: hidden hidden solid hidden;
+        width: 90%;
+        margin-left: 10%;
+        padding: 0%;
+        position: relative;
+    }
+
+    #data1 {
+        border-style: hidden hidden solid hidden;
+        margin-left: 10%;
+        width: 90%;
+        padding: 0%;
+        position: relative;
+    }
+
+    #data1 .react-datepicker-ignore-onclickoutside .react-datepicker-popper {
+        left: -94px;
+        position: absolute;
+    }
+}
+
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO GERAL/POR ITEM GERAL
+----------------------------------------------------- */
+
+
+.revistaLabel {
+    margin: 0 0 0 7%;
+}
+
+#revista {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 47%;
+    margin: 0 0 0 7%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel {
+        margin: 0 0 0 6%;
+    }
+
+    #revista {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR ITEM TAMANHOS
+----------------------------------------------------- */
+
+
+.revistaLabel2 {
+    margin: 0 2% 0 15%;
+}
+
+#revista2 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.referenciaLabel2 {
+    margin: 2% 2% 0 10%;
+}
+
+#referencia2 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 8%;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel2 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista2 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .referenciaLabel2 {
+        margin: 0 0% 0 6%;
+    }
+
+    #referencia2 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR ITEM LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel3 {
+    margin: 0 2% 0 15%;
+}
+
+#revista3 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.referenciaLabel3 {
+    margin: 2% 2% 0 10%;
+}
+
+#referencia3 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 8%;
+    border-bottom: 1px solid black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel3 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista3 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .referenciaLabel3 {
+        margin: 0 0% 0 6%;
+    }
+
+    #referencia3 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS ACUMULADO POR LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel4 {
+    margin: 0 2% 0 15%;
+}
+
+#revista4 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel4 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista4 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO E LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel5 {
+    margin: 0 2% 0 15%;
+}
+
+#revista5 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.revistaLabel6 {
+    margin: 0 2% 0 10%;
+}
+
+#revista6 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 98%;
+    margin: 0 0 0 10%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel5 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista5 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .revistaLabel6 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista6 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel7 {
+    margin: 0 2% 0 15%;
+}
+
+#revista7 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.revistaLabel8 {
+    margin: 0 2% 0 15%;
+}
+
+#revista8 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 10%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+.revistaLabel9 {
+    margin: 0 2% 0 15%;
+}
+
+#revista9 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel7 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista7 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .revistaLabel8 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista8 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+    .revistaLabel9 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista9 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+}
+
+/* ---------------------------------------------------
+    INPUTS POR CODIGO LOJA
+----------------------------------------------------- */
+
+
+.revistaLabel10 {
+    margin: 0 2% 0 15%;
+}
+
+#revista10 {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 100%;
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid black;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .revistaLabel10 {
+        margin: 0 2% 0 6%;
+    }
+
+    #revista10 {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 98%;
+        margin: 0 0 0 6%;
+    }
+
+}
+
+/* ---------------------------------------------------
+    BUTTON LIMPAR
+----------------------------------------------------- */
+
+div .buttonLimpar {
+    position: relative;
+    margin: 0% 0% 0% 15%;
+    width: 100%;
+    position: relative;
+}
+
+div .buttonLimpar {
+    padding-top: 1%;
+    background: white;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #007bff;
+}
+
+
+div .buttonLimpar:hover {
+    background: #007bff;
+    color: white;
+}
+
+div .buttonLimpar:focus {
+    background: #007bff;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    div .buttonLimpar {
+        padding: 0% 0% 0% 0%;
+        width: 100%;
+        position: relative;
+        margin: 0% 0% 0% 5%;
+    }
+
+    div .buttonLimpar {
+        padding-top: 1%;
+        background: white;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        border: none;
+        color: #007bff;
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTON FILTRAR
+----------------------------------------------------- */
+
+div .buttonFiltrar {
+    padding: 0% 0% 2, 5% 0%;
+    position: relative;
+    margin: 0% 0% 0% 15%;
+    width: 100%;
+}
+
+
+div .buttonFiltrar {
+    padding-top: 1%;
+    background: #007bff;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+div .buttonFiltrar:hover {
+    background: white;
+    color: #007bff;
+}
+
+
+div .buttonFiltrar:focus {
+    background: white;
+    color: #007bff;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    div .buttonFiltrar {
+        padding: 2% 0;
+        width: 102%;
+        position: relative;
+        margin: 0% 0% 0% 5%;
+    }
+
+    div .buttonFiltrar {
+        padding-top: 1%;
+        background: #007bff;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTON IMPRIMIR
+----------------------------------------------------- */
+
+.buttonImprimir {
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+    margin: 0% 0% 0% 15%;
+    position: relative;
+}
+
+
+
+div .buttonImprimir {
+    padding-top: 1%;
+    background: #007bff;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin: 0% 0% 0% 8%;
+}
+
+div .buttonImprimir:hover {
+    background: white;
+    color: #007bff;
+}
+
+
+div .buttonImprimir:focus {
+    background: white;
+    color: #007bff;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    div .buttonImprimir {
+        background: #007bff;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        border: none;
+        padding: 2% 0;
+        margin: 0% 0% 0% 5%;
+    }
+
+    .buttonImprimir {
+        padding: 0% 0% 0% 0%;
+        width: 102%;
+        position: relative;
+    }
+}
+
+/* ---------------------------------------------------
+    BUTTON BAIXAR
+----------------------------------------------------- */
+
+#test-table-xls-button {
+    padding: 4% 0%;
+    width: 100%;
+    position: relative;
+    margin: 0% 2% 0% 15%;
+}
+
+div #test-table-xls-button {
+    padding-top: 1%;
+    background: #007bff;
+    color: white;
+    border-radius: 0%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+div #test-table-xls-button:hover {
+    background: white;
+    color: #007bff;
+}
+
+
+div #test-table-xls-button:focus {
+    background: white;
+    color: #007bff;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    div #test-table-xls-button {
+        padding: 2% 0;
+        background: #007bff;
+        border-radius: 0%;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        border: none;
+        color: white
+    }
+
+    #test-table-xls-button {
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 5%;
+        width: 102%;
+        position: relative;
+    }
+
+}
+
+
+
+
+
+.hide {
+    display: none;
+}
+
+#formselect {
+    padding: 4px 4px 4px 4px;
+    width: 100%;
+}
+
+.enter {
+    margin: 5% 0% 0% 0%;
+}
+
+.centrocentro {
+    text-align-last: center;
+
+}
+
+
+/* ---------------------------------------------------
+    Select Tabela
+----------------------------------------------------- */
+
+
+.labelSelect {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#select {
+    border-style: hidden hidden solid hidden;
+    border-radius: 0%;
+    width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+    #select {
+        border-style: hidden hidden solid hidden;
+        border-radius: 0%;
+        width: 80%;
+    }
+}
+
+.silas {
+    background: #007bff;
+    color: white;
+}
+
+
+.alinhamento {
+    text-align: center;
+}
+
+
+
+/* ---------------------------------------------------
+    FORM
+----------------------------------------------------- */
+.MetaNew {
+    margin: 5px;
+    padding: auto;
+
+}
+
+.MetaNew_titulo {
+    background-color: #007bff;
+    padding-left: 5%;
+    color: white;
+    
+}
+
+.MetaNew_coluna {
+    padding-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.loja {
+    background: #007bff;
+    color: white; 
+    height: 50px; 
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dinheiro:before {
+    content: "R$ ";
+}
+
+.porcentagem:after {
+    content: " %";
+}
+.bg-yellow {
+    background-color: #ffff8d !important;
+}
+
+.bg-red {
+    background-color: #FF8A80 !important;
+}
+
+.bg-green {
+    background-color: #B9F6CA !important;
+}
+
+.bg-blue {
+    background-color: #1E88E5 !important;
+}
+
+
+
+
+
+.principal {
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para a linha de cada item */
+  .MetaNew_coluna {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Estilo para a coluna de cada item */
+  .MetaNew_coluna .col {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Estilo para a coluna "loja" */
+  .MetaNew_coluna .loja {
+    text-align: center;
+  }
+  
+  /* Estilo para a coluna "dinheiro" */
+  .MetaNew_coluna .dinheiro {
+    font-size: 16px;
+  }
+  
+
+  /* Estilo para a coluna "porcentagem" */
+  .MetaNew_coluna .porcentagem {
+    color: #28a745;
+  }
+  
+  /* Estilo para a coluna "atingiu" */
+  .MetaNew_coluna .atingiu {
+    color: #dc3545;
+  }
+
+
+/* ---------------------------------------------------
+    modal
+----------------------------------------------------- */
+
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: rgb(153, 144, 144);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .modal-close-button {
+    background-color: #f10909;
+    color: #f7f3f3;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    float:right;
+    font-size: large;
+  }
+  
+  .modal-close-button:hover {
+    background-color: #460303;
+  }
+  
+
+  @media (max-width: 768px) {
+    /* Hide the elements with class "atingiu-on-desktop" and "hora-atualiza-on-desktop" */
+    .mobile  {
+      display: none;
+    }
+    .col-titulo {
+        text-align: center;
+        padding: 2px; /* Você pode ajustar este valor para controlar o espaçamento entre as colunas em desktop */
+      }
+
+      
+  }
+
+  /* Estilos para o loading */
+
+  .loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .loading {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+   /* ################################### ESTILO RESPONSIVO BOTAO LOJA ################################*/
+   @media (max-width: 767px){
+
+    .MetaNew_coluna{
+        height: fit-content;
+    }
+    
+    .legenda{
+        width: 100%;
+        background-color: #d8d8d8;
+        text-align: center;
+    }
+
+    #fechaModal{
+        position: fixed;
+        bottom: 5%;
+        right: 15%;
+        background-image: url('../img/fechar.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: #FFFFFF;
+        border: 2px solid #f10909;
+        width: 50px;
+        height: 50px;
+    }
+
+    .MetaNew .metasclientes, .MetaNew .metaslojas{
+        padding-bottom: 25%;
+    }
+    
+    }

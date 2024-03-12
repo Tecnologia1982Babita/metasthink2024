@@ -1,0 +1,259 @@
+nav {
+    background: #1E90FF; 
+    -webkit-box-shadow: 0px 0px 5px black; 	
+    -moz-box-shadow: 0px 0px 5px black; 	
+            box-shadow: 0px 0px 5px black; 	
+}
+
+div .navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+div .navbar-light .navbar-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav a.navbar-brand {
+    padding: 10px;
+    margin-left: 20%;
+}
+
+@media only screen and (min-width: 768px) {
+    nav a.navbar-brand {
+        margin-right: 2%;
+        color: white;
+        margin-left: 0%;
+
+    }
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #f8f9fa;
+    font-size: 18px;
+    transition: all 0.2ms;
+}
+
+ div li .dropright .dropdown .nav-item {
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    ul li.dropdown:hover
+    { 
+        background-color: #1E90FF;
+        color: #1E90FF;
+    }
+
+    ul li.dropdown:active
+    { 
+        background-color: #1E90FF;
+        color: #1E90FF;
+    }
+    
+    ul li.dropdown:hover ul.dropdown-menu
+    { 
+        display: block; 
+    }
+
+    div ul li {
+        border-radius: 2px;
+        color: white;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div .menus {
+        background: #1E90FF;
+        -webkit-box-shadow: 0px 0px 5px black; 	
+        -moz-box-shadow: 0px 0px 5px black; 	
+                box-shadow: 0px 0px 5px black; 	
+    }
+}
+
+div .menus button {
+    color: white;
+    border-radius: 0px;
+    transition: all 0.2s;
+}
+
+div ul li.dropright .dropdown .show .nav-item {
+    background: #1E90FF;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    div .menus button {
+        color: white;
+        border-radius: 0px;
+        border: 0;
+        transition: all 0.2s;
+    }
+
+    div .menus button:hover, .material-icons:hover {
+        color: black;
+        border-radius: 0px;
+        border: none;
+        transition: all 0.2s;
+        background-color: #1E90FF;
+    }
+
+    div .menus button:active, .material-icons:active {
+        color: black;
+        border-radius: 0px;
+        border: none;
+        transition: all 0.2s;
+        background-color: #1E90FF;
+    }
+
+    .dropdown-item:focus, .dropdown-item:hover {
+        background: #1E90FF;
+        color: white;
+    }
+
+}
+
+
+div ul li a button.dropdown-item:focus, button.dropdown-item:hover {
+    background: #1E90FF;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    button.dropdown-item:focus, button.dropdown-item:hover {
+        background-color: #1E90FF;
+        color: white;
+    }
+}
+
+
+div ul li a.dropdown-toggle {
+    color: white;
+}
+
+div ul li .menus {
+    border: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    div ul li .menus {
+        border: 0;
+        border-radius: 5px;
+        margin-top: 0%;
+    }
+
+    div .nav-link {
+        color: white;
+        font-size: 16px;
+        margin-left: 4%;
+    } 
+
+    div #menus {
+        color: white;
+        font-size: 15px;
+        padding: 0%;
+        margin: 0%;
+    } 
+
+    #geral {
+        margin-left: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    
+    #li2 {
+
+        margin-left: 2%;
+    }
+}
+
+div ul {
+    padding: 0 0 3% 0;
+    border: none;
+}
+
+@media only screen and (min-width: 768px) {
+    div ul {
+        padding: 0 10% 0 0%;
+        border: none;
+    }
+
+    .material-icons {
+        vertical-align: middle;
+        position: relative;
+    }
+}
+
+.material-icons {
+    vertical-align: middle;
+    position: relative;
+}
+
+
+/* ---------------------------------------------------
+   SAIR
+----------------------------------------------------- */
+
+#BotaoSair {
+    text-align: center;
+    text-decoration: white; 
+    list-style:none;
+    background: #1E90FF;
+    color: white;
+    border-radius: 5px;
+    top: 100%;
+
+   
+
+}
+
+@media only screen and (min-width: 768px) {
+    #BotaoSair {
+        text-align: center;
+        text-decoration: none; 
+        list-style:none;
+        background: #1E90FF;
+        color: white;
+        border-radius: 5px;
+        top: 100%;
+        width: 8%;
+       
+    }
+
+    a .img {
+        width: 16vh;
+        height: 10vh;
+    }
+
+    
+}
+
+#BotaoSair .btn {
+    color: white;
+}
+
+#BotaoSair .btn:hover {
+    color: black;
+    background-color: #1E90FF;
+}
+
+#BotaoSair .material-icons {
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+#BotaoSair1{
+    float: right;
+ }
+
+ /* ---------------------------------------------------
+   LOGO
+----------------------------------------------------- */
+
+.img {
+    width: 22vh;
+    height: 14vh;
+}
+

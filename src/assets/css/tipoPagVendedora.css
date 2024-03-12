@@ -1,0 +1,220 @@
+:root {
+  --color-light: #FFFFFF;
+  --color-dark: #212121;
+  --color-signal: #6aa50b;
+  --color-shadow: #97cf3b;
+  --color-marrom-black: #333333;
+  --size-bezel: .5rem;
+  --size-radius: 4px;
+  --colorTituloTotal : #000000;
+  --blackTotalVenda-color: #FFFFFF;
+  }
+
+  .tipoPagVendedora{
+      line-height: 1.4;
+      font-family: 'Inter', sans-serif;
+      font-size: calc(.6rem + .4vw);
+      color: var(--color-dark);
+      background: var(--color-light);
+      /* background-image: url('../imgs/fundoEsqAzul.png'); */
+      font-weight: 300;
+      background-size: cover;
+  }
+
+.tipoPagVendedora h1, .tipoPagVendedora h2, .tipoPagVendedora h3 {
+font-weight: 900;
+}
+
+.tipoPagVendedora mark {
+  background: var(--color-signal);
+  color: var(--color-light);
+  font-weight: bold;
+  padding: 0 0.2em;
+}
+
+.tipoPagVendedora .card {
+  min-width: 50%;
+  background: var(--color-marrom-black);
+  padding: 0.3% 2% 2% 2%;
+  margin: 1% auto;
+  margin-top: calc(4 * .5rem);
+  border-radius: var(--size-radius);
+  border: 3px solid var(--azulthink, currentColor);
+  box-shadow: .5rem .5rem 0 var(--azulthink, currentColor);
+  color: var(--color-light);
+}
+
+
+.tipoPagVendedora .button-group {
+margin-top: calc(.5rem * 2.5);
+}
+
+.tipoPagVendedora .card button {
+color: currentColor;
+padding: .5rem calc(.5rem * 2);
+background: var(--azulthink);
+border: none;
+border-radius: var(--size-radius);
+font-weight: 900;
+
+&[type=reset]{
+background: var(--color-light);
+font-weight: 200;
+} 
+}
+
+.tipoPagVendedora .card button + button {
+margin-left: calc(.5rem * 2);
+}
+
+.tipoPagVendedora .card button:hover {
+  background-color: #0d59a5;
+  cursor: pointer;
+}
+
+.tipoPagVendedora .icon {
+display: inline-block;
+width: 1em; height: 1em;
+margin-right: .5em;
+}
+
+.tipoPagVendedora .hidden {
+display: none;
+}
+
+
+.tipoPagVendedora .inputsCard{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tipoPagVendedora .inputTitleComp{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 10px 10px;
+}
+
+
+
+.tipoPagVendedora .inputTitleComp input {
+  background-color: var(--white-color);
+  width: fit-content;
+  margin-bottom: 3%;
+  color: #000000;
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 10px;
+  border: 1.5px solid #dededf;
+}
+
+.tipoPagVendedora .inputTitleComp input:is(:focus, :hover){
+  border-color: rgba(100, 234, 118, 0.4);
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 4px #64ea8c1a;
+  box-shadow: 0 0 0 4px #64eaa71a;
+  outline: none;
+}
+
+
+
+.tipoPagVendedora .tablePagVendedoras {
+  max-width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  color: var(--color-dark);
+}
+
+.tipoPagVendedora .tablePagVendedoras th, .tipoPagVendedora .tablePagVendedoras td {
+  border: 2px solid #380808;
+  padding: 8px;
+  text-align: left;
+}
+
+.tipoPagVendedora .tablePagVendedoras th {
+  background-color: #f2f2f2;
+  text-align: center;
+  color: var(--color-dark);
+}
+
+.tipoPagVendedora .tablePagVendedoras tr:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+.custom-dialog {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.tipoPagVendedora .navbar {
+  min-width: 100vw;
+}
+
+/* GRAFICO */
+.tipoPagVendedora .graficoTotal{
+  margin: 0 auto;
+}
+
+
+.tipoPagVendedora .totalPorcentagem{
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+
+.tipoPagVendedora .totalPorcentagem .naMeta{
+  color: var(--medio-azul-color);
+}
+
+.tipoPagVendedora .totalPorcentagem .foraMeta{
+  color: var(--vermelho-tipoPag);
+}
+
+@media (max-width: 767px){
+
+  .tipoPagVendedora h2 {
+    text-align: center;
+  }
+
+  .tipoPagVendedora .card {
+      max-width: 95%;
+  }
+
+  .tipoPagVendedora .inputsCard {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tipoPagVendedora .inputsCard .inputTitleComp{
+    align-items: center;
+  }
+
+  .tipoPagVendedora .button-group{
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .tipoPagVendedora .card h2{
+    font-size: 1.5em;
+  }
+
+  .tipoPagVendedora .tablePagVendedoras th,
+  .tipoPagVendedora .tablePagVendedoras td {
+    font-size: 0.8em;
+    font-weight: 700;
+  }
+
+
+}
