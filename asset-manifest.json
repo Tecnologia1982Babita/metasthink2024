@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/metavendedoraclietereact2024/static/css/main.1651cb80.css",
-    "main.js": "/metavendedoraclietereact2024/static/js/main.1d9b7e3b.js",
+    "main.js": "/metavendedoraclietereact2024/static/js/main.c9402a4c.js",
     "static/js/453.2d5f6301.chunk.js": "/metavendedoraclietereact2024/static/js/453.2d5f6301.chunk.js",
     "static/media/Cardo-Regular.ttf": "/metavendedoraclietereact2024/static/media/Cardo-Regular.4ad75d4da97e1cf6655b.ttf",
     "static/media/Cardo-Bold.ttf": "/metavendedoraclietereact2024/static/media/Cardo-Bold.c2984dcfbf0213139033.ttf",
@@ -10,11 +10,11 @@
     "static/media/DancingScript-Regular.ttf": "/metavendedoraclietereact2024/static/media/DancingScript-Regular.5bfc0dcc0c0ff5a2832e.ttf",
     "index.html": "/metavendedoraclietereact2024/index.html",
     "main.1651cb80.css.map": "/metavendedoraclietereact2024/static/css/main.1651cb80.css.map",
-    "main.1d9b7e3b.js.map": "/metavendedoraclietereact2024/static/js/main.1d9b7e3b.js.map",
+    "main.c9402a4c.js.map": "/metavendedoraclietereact2024/static/js/main.c9402a4c.js.map",
     "453.2d5f6301.chunk.js.map": "/metavendedoraclietereact2024/static/js/453.2d5f6301.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1651cb80.css",
-    "static/js/main.1d9b7e3b.js"
+    "static/js/main.c9402a4c.js"
   ]
 }
