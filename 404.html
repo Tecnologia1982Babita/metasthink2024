@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecionamento com JavaScript</title>
+</head>
+<body>
+  <script>
+    // Função para obter parâmetros da URL
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    // Lógica de redirecionamento
+    function redirecionarParaComponente() {
+      var subpagina = getParameterByName('subPaginas');
+      if (subpagina) {
+        var paginas = subpagina.split('&');
+        var primeira = paginas[0].split('=')[1];
+        if (paginas.length > 1) {
+          window.location.href = '/' + primeira + '?subPaginas=' + paginas.join('&');
+        }
+      }
+    }
+
+    // Chamar a função de redirecionamento quando a página carregar
+    window.onload = function() {
+      redirecionarParaComponente();
+    };
+  </script>
+</body>
+</html>
