@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/metavendedora2024/static/css/main.c8fce6e9.css",
-    "main.js": "/metavendedora2024/static/js/main.aad2fb5d.js",
+    "main.js": "/metavendedora2024/static/js/main.5a6bb460.js",
     "static/js/453.2d5f6301.chunk.js": "/metavendedora2024/static/js/453.2d5f6301.chunk.js",
     "static/media/Cardo-Regular.ttf": "/metavendedora2024/static/media/Cardo-Regular.4ad75d4da97e1cf6655b.ttf",
     "static/media/Cardo-Bold.ttf": "/metavendedora2024/static/media/Cardo-Bold.c2984dcfbf0213139033.ttf",
@@ -10,11 +10,11 @@
     "static/media/DancingScript-Regular.ttf": "/metavendedora2024/static/media/DancingScript-Regular.5bfc0dcc0c0ff5a2832e.ttf",
     "index.html": "/metavendedora2024/index.html",
     "main.c8fce6e9.css.map": "/metavendedora2024/static/css/main.c8fce6e9.css.map",
-    "main.aad2fb5d.js.map": "/metavendedora2024/static/js/main.aad2fb5d.js.map",
+    "main.5a6bb460.js.map": "/metavendedora2024/static/js/main.5a6bb460.js.map",
     "453.2d5f6301.chunk.js.map": "/metavendedora2024/static/js/453.2d5f6301.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8fce6e9.css",
-    "static/js/main.aad2fb5d.js"
+    "static/js/main.5a6bb460.js"
   ]
 }
